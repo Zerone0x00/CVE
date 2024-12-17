@@ -20,7 +20,7 @@ https://product.11467.com/info/2149952.htm
 File Upload
 
 ## Description
-Huang Yaoshi Pharmacy Management is a management software specially created for retail pharmacies. It integrates comprehensive purchase, sales and inventory management, member management, and GSP management. Its intuitive interface, simple operation, eliminates complexity, retains refinement, and is easier to use, helping you take a step forward in your career. "Huang Pharmacist" pharmaceutical management software UploadFile has arbitrary file uploading vulnerabilities.
+"Huang Yaoshi" pharmaceutical management software UploadFile has arbitrary file upload vulnerability. Attackers can upload arbitrary files and gain server privileges
 
 
 
