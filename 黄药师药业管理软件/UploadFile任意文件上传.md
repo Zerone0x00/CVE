@@ -2,6 +2,7 @@
 ```
 body="XSDService.asmx"
 ```
+![image](https://github.com/user-attachments/assets/b9d2708e-7429-47c3-a346-38f380def928)
 
 ## product
 
