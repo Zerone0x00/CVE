@@ -21,7 +21,7 @@ https://product.11467.com/info/2149952.htm
 File Upload
 
 ## Description
-"Huang Yaoshi" pharmaceutical management software UploadFile has arbitrary file upload vulnerability. Attackers can upload arbitrary files and gain server privileges
+There is an arbitrary file upload vulnerability in UploadFile under the/XSDService.asmx file of the "Huang Pharmacist" drug management software. Attackers can upload arbitrary files and gain server privileges
 
 
 
