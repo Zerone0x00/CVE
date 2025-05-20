@@ -3,7 +3,11 @@
 
 https://www.totolink.net/home/menu/detail/menu_listtpl/download/id/139/ids/36.html
 ![image](https://github.com/user-attachments/assets/1f19d9d6-bbe6-409f-8085-a650f1d3f616)
-
+## Description
+```
+TOTOLINK CA300-PoE_Firmware  V6.2c.884 was found to contain unauthorized remote command execution via the plugin_version parameter.
+The plugin_version in the setUnloadUserData function in the update.so file is user-controllable. Without any filtering, it is spliced into the variable v8, and finally passed into cs_cmd, causing the command to be executed.
+```
 
 ![image](https://github.com/user-attachments/assets/6b9416f3-f2dc-42f7-9a01-b0506bbc286b)
 ![94929ab1de737d7e19968cd6acdbdb6](https://github.com/user-attachments/assets/5c0ea937-4248-483c-b127-ac30462fea52)
